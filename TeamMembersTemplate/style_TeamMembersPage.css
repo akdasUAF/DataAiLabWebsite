@@ -1,0 +1,124 @@
+:root {
+    --uaf-blue: #00205B;
+    --uaf-gold: #FFD100;
+    --text-dark: #333;
+    --bg-light: #f7f9fb;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-light);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-section {
+    padding: 4rem 2rem;
+  }
+  
+  .team-section h1 {
+    text-align: center;
+    color: #001b49;
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .member-card {
+    max-width: 800px;
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-left: 6px solid var(--uaf-blue);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .member-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--uaf-blue);
+    margin-bottom: 1rem;
+  }
+  
+  .member-card h3 {
+    color: var(--uaf-blue);
+    margin: 0.5rem 0;
+  }
+  
+  .member-card p {
+    color: var(--text-dark);
+    margin: 0.25rem 0;
+  }
+  
+  .member-btn {
+    display: inline-block;
+    background-color: var(--uaf-blue);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .member-btn:hover {
+    background-color: #001740;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: var(--uaf-blue);
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+ 
+  .scrollable-content {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+    text-align: left;
+  }
+  
+  
+  .scrollable-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 3px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header frame */
+.site-header {
+  background-color: #205B8C;
+  color: white;
+  padding:10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Left Logo */
+.logo-container {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img,
+.logo-text {
+  height: 40px;
+}
+
+/* Right Navigation bar + yellow buttom */
+.menu-button-container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Style of Navigation Bar */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style of Yellow Button */
+.cta-button {
+  background-color: #FFCC00;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+}
+
+/* Gradient bar */
+
+.gradient-bar {
+  height: 8px;
+  background: linear-gradient(to right, #b4e0f1, #d8d8d8, #f0c500);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*FOOTER*/
+.footer {
+  max-width: 100%;
+  background-color: #205B8C ;
+  padding: 2rem 0;
+  color: white;
+}
+
+.footer,
+.footer a {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
+.footer .lang-select {
+  margin-top: 2rem;
+  color: white;
+  background-color: #205B8C;
+  background-image: none;
+  border: 1px solid #333;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+}
